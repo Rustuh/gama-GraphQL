@@ -16,9 +16,9 @@ const  [password, setPassword] = useState('');
                 password,
             })
         })
-            .then((Response) => Response.json())
-            .then(() => {
-                console.log('Success!');
+            .then((response) => response.json())
+            .then((data) => {
+                console.log('Success!', data);
             });
 
     };
@@ -37,7 +37,7 @@ const  [password, setPassword] = useState('');
                 type="email" 
                 value={email}
                 onChange={handleEmailChange}
-                inputmode="email" 
+                inputMode="email" 
                 autoComplete="username" 
                 />
             </fieldset>
