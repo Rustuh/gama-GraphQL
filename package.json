@@ -1,0 +1,19 @@
+{
+  "name": "@dev-demands/root",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rustuh/gama-GraphQL.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rustuh/gama-GraphQL/issues"
+  },
+  "homepage": "https://github.com/Rustuh/gama-GraphQL#readme"
+}
